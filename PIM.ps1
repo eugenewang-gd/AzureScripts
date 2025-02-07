@@ -1,0 +1,4 @@
+# Enable-DCAzureADPIMRole -RolesToActivate 'Service Support Administrator','Cloud Application Administrator','User Administrator', 'Exchange Administrator','Compliance administrator','Security administrator','Attack simulation administrator','Attack payload author','Cloud App Security Administrator'  -UseMaximumTimeAllowed -Reason 'Security Team needed roles'
+Enable-DCAzureADPIMRole -RolesToActivate 'Security administrator' -UseMaximumTimeAllowed -Reason 'IR Routine: Incident Response routine required'
+Enable-DCAzureADPIMRole -RolesToActivate 'Cloud App Security Administrator' -UseMaximumTimeAllowed -Reason 'IR Routine: Access Defender for Cloud App to review user events'
+Enable-DCAzureADPIMRole -RolesToActivate 'Exchange Administrator' -UseMaximumTimeAllowed -Reason 'IR Routine: Review and release mails'
